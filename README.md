@@ -9,6 +9,7 @@ VALUES ('fernando@example.com', 'Fernando', '$2a$10$3.NnRss04nD/y1NypBNj6ud0qvg3
 ########## PASO  2 cURL #############
 
 ################### OBTENER TOKEN 
+
 curl --location --request GET 'http://localhost:8080/login' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: JSESSIONID=791969C53C40DBB9340CC7E2F68E09D0' \
@@ -18,6 +19,7 @@ curl --location --request GET 'http://localhost:8080/login' \
 }'
 
 ############# Insertar un nuevo usuario
+
 curl --location 'http://localhost:8080/usuariosnuevos' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: ••••••' \
@@ -40,12 +42,16 @@ curl --location 'http://localhost:8080/usuariosnuevos' \
 }'
 
 ################### obtner todos los usuarios
+
+
 curl --location 'http://localhost:8080/api/users' \
 --header 'Authorization: ••••••' \
 --header 'Cookie: JSESSIONID=791969C53C40DBB9340CC7E2F68E09D0' \
 --data ''
 
 ################## Actualizar los usuarios
+
+
 curl --location --request PUT 'http://localhost:8080/api/userUpdate' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZlcm5hbmRvQGV4YW1wbGUuY29tIiwic3ViIjoiZmVybmFuZG9AZXhhbXBsZS5jb20iLCJleHAiOjE3MjU5MzgzMjh9.n3IkeQaHNK_Tr7iK96ksSUzsQOk4ei9LXlFprJFm0NA' \
 --header 'Content-Type: application/json' \
