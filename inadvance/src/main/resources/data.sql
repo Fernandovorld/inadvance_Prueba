@@ -1,0 +1,2 @@
+INSERT INTO usuario (email, name, password, fecha_creacion, fecha_modificacion)
+VALUES ('fernando@example.com', 'Fernando', '$2a$10$3.NnRss04nD/y1NypBNj6ud0qvg3Slvq/UjmIfzn.knN.f5vFkaKK', NOW(), NOW());

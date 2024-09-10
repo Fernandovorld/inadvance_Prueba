@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.795 s <<< FAILURE! -- in com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest
+com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest.setUsuariosTest -- Time elapsed: 0.755 s <<< ERROR!
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.inadvance.inadvance.security.TokenUtils.getAuthentication(TokenUtils.java:39)
+	at com.inadvance.inadvance.service.UsuarioServiceImp.setBitacoraDeCambios(UsuarioServiceImp.java:126)
+	at com.inadvance.inadvance.service.UsuarioServiceImp.setUsuarios(UsuarioServiceImp.java:97)
+	at com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest.setUsuariosTest(UsuarioServiceImpTest.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest.updateUsuarioTest -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.inadvance.inadvance.entity.Usuario.getName()" because "result" is null
+	at com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest.updateUsuarioTest(UsuarioServiceImpTest.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest.getUsuarioTest -- Time elapsed: 0.004 s <<< ERROR!
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.inadvance.inadvance.security.TokenUtils.getAuthentication(TokenUtils.java:39)
+	at com.inadvance.inadvance.service.UsuarioServiceImp.setBitacoraDeCambios(UsuarioServiceImp.java:126)
+	at com.inadvance.inadvance.service.UsuarioServiceImp.getUsuario(UsuarioServiceImp.java:38)
+	at com.inadvance.inadvance.serviceTest.UsuarioServiceImpTest.getUsuarioTest(UsuarioServiceImpTest.java:116)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,0 +1,17 @@
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/Dao/IPhonesDao.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/Dao/IStatusDao.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/Dao/IUsuarioDao.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/InadvanceApplication.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/controller/UserController.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/entity/Phones.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/entity/Status.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/entity/Usuario.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/security/AuthCredentials.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/security/JWTAuthenticationFilter.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/security/JWTAuthorizationFilter.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/security/TokenUtils.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/security/UserDetailImpl.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/security/UserDetailServiceImp.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/security/WebSecurityConfig.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/service/IUsuarioService.java
+/Users/fernandogonzalezdiaz/Desktop/InAdvance/Desarrollo/backend/inadvance/src/main/java/com/inadvance/inadvance/service/UsuarioServiceImp.java

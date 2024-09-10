@@ -1,0 +1,36 @@
+###
+
+# curl --location --request POST 'http://localhost:8080/api/usuariosnuevos'
+#--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZlcm5hbmRvQGV4YW1wbGUuY29tIiwic3ViIjoiZmVybmFuZG9AZXhhbXBsZS5jb20iLCJleHAiOjE3MjU5MDkxODB9.wClWPP0CcEadjKG47SfsF09GNrLQZVT02VzvlcpKk2U'
+#--header 'Content-Type: application/json'
+#--data-raw '{
+#    "email": "testuser@example.com",
+#    "name": "Test User",
+#    "password": "password123",
+#    "phones": [
+#        {
+#            "number": "1234567890",
+#            "citycode": "1",
+#            "countrycode": "91"
+#        }
+#    ]
+#}'
+POST http://localhost:8080/api/usuariosnuevos
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZlcm5hbmRvQGV4YW1wbGUuY29tIiwic3ViIjoiZmVybmFuZG9AZXhhbXBsZS5jb20iLCJleHAiOjE3MjU5MTI2Mzd9.Y5iZa2Qb2hx80ZmIN82pyGl61_qc11jTMhxdKKaJYQg
+Content-Type: application/json
+
+{
+  "email": "testuser@example.com",
+  "name": "Test User",
+  "password": "password123",
+  "phones": [
+    {
+      "number": "1234567890",
+      "citycode": "1",
+      "countrycode": "91"
+    }
+  ]
+}
+
+###
+
